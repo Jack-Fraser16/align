@@ -1,0 +1,14 @@
+John Fraser
+Professor Slonim
+Comp 167 - Computational Biology
+February 4th, 2020
+
+Compile and execute the program using:
+    "python3 align.py some_input".
+
+The scoring scheme can be altered by including the flag "--manual" on the 
+command line followed by three numbers that assign match, mismatch, and gap
+scores, respectively and in that order. Example:
+    "python3 align.py aligntest.input1 > myoutput1 --manual 4 -2 -1"
+
+
