@@ -119,9 +119,11 @@ def populate_matrix(matrix):
      
     for i in range(matrix.vertical):
         matrix.board[i][0].value = gap * i
+        matrix.board[i][0].up = True
 
     for j in range(matrix.horizontal):
         matrix.board[0][j].value = gap * j
+        matrix.board[0][j].left = True
     
     # Iterate through the matrix in column-first order and determine the 
     # optimal score for each cell and assign arrow flags accordingly.
